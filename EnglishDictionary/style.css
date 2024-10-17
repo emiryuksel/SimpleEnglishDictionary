@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box; /* padding values should not be included in the input */
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container{
+    background-color: lightgray;
+    width: 500px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.heading{
+    font-size: 28px;
+}
+
+.word{
+    width: 100%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+
+.translatedDiv{
+    display: none;
+}
